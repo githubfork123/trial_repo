@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: install dependencies
-        run: pip install . pytest pytest-cov
+        run: pip install -e . pytest pytest-cov
 
       - name: run tests with coverage
         run: pytest --cov=some_pkg --cov-report=xml

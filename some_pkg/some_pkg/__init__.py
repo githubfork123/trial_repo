@@ -1,1 +1,1 @@
-from .pkg import random_func
+from .pkg import random_func, another_func

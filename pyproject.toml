@@ -11,3 +11,9 @@ dependencies = []
 
 [tool.setuptools.packages.find]
 where = ["."]
+
+[tool.coverage.run]
+source = ["some_pkg"]
+
+[tool.coverage.report]
+omit = ["*/test/*"]

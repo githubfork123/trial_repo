@@ -1,1 +1,0 @@
-from pkg import random_func

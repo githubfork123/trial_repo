@@ -1,0 +1,14 @@
+name: Test workflow
+on: [push]
+jobs:
+  test_job:
+    steps:
+      - uses actions/checkout@v4
+      - name: install dependencies
+        run: pip install pytest pytest-cov
+
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v5
+        with:
+        directory: ./coverage/reports/
+        verbose: true

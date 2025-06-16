@@ -1,0 +1,19 @@
+name: Test workflow
+on: [push]
+jobs:
+  test_job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: install dependencies
+        run: pip install -e . pytest pytest-cov
+
+      - name: run tests with coverage
+        run: pytest --cov=some_pkg --cov-report=xml
+
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v5
+        with:
+          verbose: true
+          token: ${{ secrets.CODECOV_TOKEN }}

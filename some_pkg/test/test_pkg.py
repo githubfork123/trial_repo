@@ -4,3 +4,6 @@ def test_pkg():
 
 def test_yet_another_func():
     assert some_pkg.yet_another_func() == 6
+
+def test_yet_another_func2():
+    assert some_pkg.yet_another_func2() == 45

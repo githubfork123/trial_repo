@@ -6,7 +6,6 @@ coverage:
   status:
     project:
       default:
-        # Require 75% coverage
         target: 60
     changes: false
 

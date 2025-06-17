@@ -1,5 +1,6 @@
 def random_func():
   b = 3 * 3
+  c = 4 * 4
   return 4
 def another_func():
   return 5

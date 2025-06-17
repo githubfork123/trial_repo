@@ -4,10 +4,10 @@ codecov:
 
 coverage:
   status:
-    # project:
-      # default:
+    project:
+      default:
         # Require 75% coverage
-        # target: 75
+        target: 60
     changes: false
 
 comment:

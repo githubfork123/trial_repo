@@ -8,3 +8,6 @@ def yet_another_func2():
   a = 3 * 3
   b = 6 * 6
   return a + b
+
+def another_func_noteven_used():
+  return 7

@@ -12,5 +12,4 @@ def yet_another_func2():
   return a + b
 
 def another_func_noteven_used():
-  a = 3* 3
   return 7

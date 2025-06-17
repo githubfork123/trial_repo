@@ -6,10 +6,13 @@ coverage:
   status:
     project:
       default:
-        target: 60%
-    changes: false
+        target: 0.7
+    patch:
+      default:
+        target: 0.8
 
-comment:
+comment: True
+
 #   layout: "diff, flags, files"
 #   behavior: once
 #   require_base: false

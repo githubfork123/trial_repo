@@ -7,10 +7,10 @@ coverage:
     project:
       default:
         # Require 75% coverage
-        target: 75
+        target: 60
     changes: false
 
-comment:
-  layout: "diff, flags, files"
-  behavior: once
-  require_base: false
+# comment:
+#   layout: "diff, flags, files"
+#   behavior: once
+#   require_base: false

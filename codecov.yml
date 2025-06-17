@@ -10,7 +10,7 @@ coverage:
         target: 60
     changes: false
 
-comment:
-  layout: "diff, flags, files"
-  behavior: once
-  require_base: false
+# comment:
+#   layout: "diff, flags, files"
+#   behavior: once
+#   require_base: false
